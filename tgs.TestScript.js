@@ -3,7 +3,7 @@
 describe('My Tugas First Test', () => {
     it('clicking "type" shows the right heading',() => {
         cy.visit('https://example.cypress.io')
-        // cy.pause()
+        cy.pause()
 
         cy.contains('type').click()
         cy.url().should('include', '/commands/actions')
