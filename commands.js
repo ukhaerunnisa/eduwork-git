@@ -24,37 +24,24 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-Cypress.Commands.add('login', (username, password) => {
+Cypress.Commands.add('login1', (username, password) => {
     cy.clearCookies()
-    cy.clearLocalStorage()
+    cy.clearAllLocalStorage()
+
+    cy.get('#login_form').should('be.visible')
+    cy.get('#user_login').type('invalid username')
+    cy.get('#user_password').type('invalid password')
+    cy.get('input[name="submit"]').click()
+    cy.get('.alert').should('be.visible').and('contain.text', 'Login and/or password are wrong.')
+
     cy.get('#user_login').clear()
-        cy.get('#user_login').type(username)
+    cy.get('#user_login').type(username)
+    cy.get('#user_password').clear()
+    cy.get('#user_password').type(password)
+    cy.get('input[name="submit"]').click()
 
-        cy.get('#user_password').clear()
-        cy.get('#user_password').type(password)
+    cy.get('h2').should('contain.text', 'Cash Accounts')
+    cy.contains('username').click()
+    cy.get('#logout_link').click()
 
-        cy.get('input[name="submit"]').click()
-
-        cy.get('#pay_bills_tab').click()
-
-        cy.get('#sp_payee').select('Bank of America')
-
-        cy.get('#sp_account').select('Loan')
-
-        cy.get('#sp_amount').type(5)
-
-        cy.get('#sp_date').eq(0).click()
-        cy.get('.ui-datepicker-calendar').eq(0).find('.ui-state-default')
-        .each((el) =>{
-            const date = el.text()
-            cy.log(date)
-            if(date==='6')
-                {
-                    cy.wrap(el).click()
-                }
-        })
-
-        cy.get('#sp_description').type('Payment')
-
-        cy.get('#pay_saved_payees').click()
 })
