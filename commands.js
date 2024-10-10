@@ -23,25 +23,31 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
-
-Cypress.Commands.add('login1', (username, password) => {
-    cy.clearCookies()
-    cy.clearAllLocalStorage()
-
-    cy.get('#login_form').should('be.visible')
-    cy.get('#user_login').type('invalid username')
-    cy.get('#user_password').type('invalid password')
-    cy.get('input[name="submit"]').click()
-    cy.get('.alert').should('be.visible').and('contain.text', 'Login and/or password are wrong.')
-
-    cy.get('#user_login').clear()
-    cy.get('#user_login').type(username)
-    cy.get('#user_password').clear()
-    cy.get('#user_password').type(password)
-    cy.get('input[name="submit"]').click()
-
-    cy.get('h2').should('contain.text', 'Cash Accounts')
-    cy.contains('username').click()
-    cy.get('#logout_link').click()
-
+Cypress.Commands.add('loginViaAPI', (email, password) => {
+    cy.request({
+        method: 'POST', 
+        url: 'https://reqres.in/api/user',
+        body:{
+            username: email,
+            password : password 
+        }
+        
+    }).then((response) => {
+        expect(response.status).equal(201)
+        if (response.status === 200 && response.body.token) {
+        cy.setCookie('sessionId', response.body.token)
+    } else {
+        cy.log('Login failed: ' + response.body.error)
+    }
+    if (response.status === 200 && response.body.token) {
+        cy.setCookie('userId', response.body.token)
+    } else {
+        cy.log('Login failed: ' + response.body.error)
+    }
+    if (response.status === 200 && response.body.token) {
+        cy.setCookie('userName', response.body.token)
+    } else {
+        cy.log('Login failed: ' + response.body.error)
+    }
+    })
 })
