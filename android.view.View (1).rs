@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>android.view.View</name>
+   <name>android.view.View (1)</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -13,15 +13,15 @@
       <name>class</name>
       <type>Main</type>
       <value>android.view.View</value>
-      <webElementGuid>14f7b32b-d7ae-4182-bf54-a1c0e82093ba</webElementGuid>
+      <webElementGuid>7d0d0309-3866-433b-bf8d-0e01ef7122e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
-      <value>1</value>
-      <webElementGuid>bda47a38-1b11-4d6a-8e03-b0d8c9f7c2fd</webElementGuid>
+      <value>0</value>
+      <webElementGuid>8023cf0d-d2c2-403c-bbfe-f1891246e17e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,20 @@
       <name>package</name>
       <type>Main</type>
       <value>com.samsung.ecomm</value>
-      <webElementGuid>911a24f9-a641-4412-972a-c7c76198f01e</webElementGuid>
+      <webElementGuid>a22b538c-565c-43e9-81e6-20578c8ecc29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>content-desc</name>
+      <type>Main</type>
+      <value>Galaxy S25
+(89)
+From  
+$809.99
+$859.99   Save $50 
+or starting from $33.75/mo. for 24 mos with Samsung Financing</value>
+      <webElementGuid>80ebbb7c-4a12-4059-a588-54ceef02c340</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +50,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>9a517bea-2837-49c9-8443-139296d376f6</webElementGuid>
+      <webElementGuid>3331c724-aa99-4b61-939a-3ca8a11bb8fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +58,15 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>8fc55778-d2ca-49e3-b186-1933d7a3cbad</webElementGuid>
+      <webElementGuid>65958a5e-5422-42c8-aff2-a5a94670d3c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>clickable</name>
       <type>Main</type>
-      <value>false</value>
-      <webElementGuid>a3f01170-265b-4908-9336-2e03c61cb72d</webElementGuid>
+      <value>true</value>
+      <webElementGuid>59b8e33e-74a2-4395-b919-7035f036b615</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,15 +74,15 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>69bfeb6d-0a4e-45be-a343-ebee0f8f6251</webElementGuid>
+      <webElementGuid>9521e9f8-322a-4a35-9606-9b388bb015de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>focusable</name>
       <type>Main</type>
-      <value>false</value>
-      <webElementGuid>e1bf188f-c6be-4f4a-8b8e-04100cd5b3f4</webElementGuid>
+      <value>true</value>
+      <webElementGuid>e275ab83-d27e-458d-bf9e-f89ed6aa0081</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +90,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>1a1a80c0-5906-4dec-ad88-ad25a591875b</webElementGuid>
+      <webElementGuid>d28cc5f5-0a89-4068-b43c-f63390ef5d1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +98,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>c2c955ae-976e-49d0-9f67-c38917143063</webElementGuid>
+      <webElementGuid>9156e7ad-d211-4ef1-9af0-32749b042967</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +106,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>d08fa3ba-78cb-47f3-a331-8da93054f1d9</webElementGuid>
+      <webElementGuid>6fe85ced-4cb7-423a-b540-aab7bf80e576</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +114,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>47fe9e8e-e014-4ccc-97a7-41e7e38413ec</webElementGuid>
+      <webElementGuid>369821f0-a9e3-4c9f-be6b-2ec24f9924cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +122,7 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>c32a4efc-086b-455a-94d3-3584179876cb</webElementGuid>
+      <webElementGuid>52865a36-b28e-4068-879f-6943b7c5f84d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,15 +130,15 @@
       <name>x</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>a5be364e-249d-4e1c-af52-86d3a23999d8</webElementGuid>
+      <webElementGuid>de834a70-dd8d-427c-a60d-ff9a5419d70b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>118</value>
-      <webElementGuid>d680f580-2124-433f-9cfc-31f2c652d5fa</webElementGuid>
+      <value>457</value>
+      <webElementGuid>5ca08592-e6b3-455f-9a7e-a3c93cbf454d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -133,23 +146,23 @@
       <name>width</name>
       <type>Main</type>
       <value>1080</value>
-      <webElementGuid>62438a62-0b80-4d3d-a080-062f73385344</webElementGuid>
+      <webElementGuid>46e104cb-468e-4ce7-9d49-1e262175e9d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>147</value>
-      <webElementGuid>972be9fd-13e8-4c07-ac08-32a7dd6f9b13</webElementGuid>
+      <value>498</value>
+      <webElementGuid>35f70336-fe9b-4dcc-817b-dc38a8886a7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[0,118][1080,265]</value>
-      <webElementGuid>a8283621-cb9f-4061-8cb8-cb50ad8267fc</webElementGuid>
+      <value>[0,457][1080,955]</value>
+      <webElementGuid>6d7fb1bb-b4e8-4037-aa91-56bf69a980a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -157,7 +170,7 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>e4d4ed31-4bf0-49a2-b863-8fbc535143bb</webElementGuid>
+      <webElementGuid>bb06e2fd-71f2-4cbb-9ec3-611f3f5cfa95</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -165,7 +178,7 @@
       <name>resource-id</name>
       <type>Main</type>
       <value></value>
-      <webElementGuid>c9ca42a7-e98d-4f11-92c3-e5e961ad00eb</webElementGuid>
+      <webElementGuid>c1ad6b06-4762-4a94-8218-d2a6b9d79fa7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -173,21 +186,26 @@
       <name>text</name>
       <type>Main</type>
       <value></value>
-      <webElementGuid>863c4f47-8556-4d69-80d0-9d1af94cb7ed</webElementGuid>
+      <webElementGuid>aba3323b-8c70-4a79-bc75-dbf1456296ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]</value>
-      <webElementGuid>73612e7c-b5e6-4030-95d2-1abffbde5fb4</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[4]/android.view.View[1]/android.view.View[1]</value>
+      <webElementGuid>70bfe137-51ae-4a6b-b101-b8d9e80db40e</webElementGuid>
    </webElementProperties>
    <locator>//*[@class = 'android.view.View' and @resource-id = '' and (@text = '' or . = '')]</locator>
    <locatorCollection>
       <entry>
          <key>ACCESSIBILITY</key>
-         <value></value>
+         <value>Galaxy S25
+(89)
+From  
+$809.99
+$859.99   Save $50 
+or starting from $33.75/mo. for 24 mos with Samsung Financing</value>
       </entry>
       <entry>
          <key>CLASS_NAME</key>
@@ -203,7 +221,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]</value>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[4]/android.view.View[1]/android.view.View[1]</value>
       </entry>
       <entry>
          <key>ANDROID_VIEWTAG</key>
@@ -231,7 +249,12 @@
       </entry>
       <entry>
          <key>ANDROID_UI_AUTOMATOR</key>
-         <value>new UiSelector().className(&quot;android.view.View&quot;).resourceId(&quot;&quot;).packageName(&quot;com.samsung.ecomm&quot;).enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)</value>
+         <value>new UiSelector().className(&quot;android.view.View&quot;).description(&quot;Galaxy S25
+(89)
+From  
+$809.99
+$859.99   Save $50 
+or starting from $33.75/mo. for 24 mos with Samsung Financing&quot;).resourceId(&quot;&quot;).packageName(&quot;com.samsung.ecomm&quot;).enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(0)</value>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>
